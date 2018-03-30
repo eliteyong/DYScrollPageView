@@ -32,6 +32,7 @@ char DYIndexKey;
 - (void)setDy_currentIndex:(NSInteger)dy_currentIndex {
     objc_setAssociatedObject(self, &DYIndexKey, [NSNumber numberWithInteger:dy_currentIndex], OBJC_ASSOCIATION_ASSIGN);
 }
+
 - (NSInteger)dy_currentIndex {
     return [objc_getAssociatedObject(self, &DYIndexKey) integerValue];
 }

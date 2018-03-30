@@ -33,7 +33,7 @@
 - (void)setupNavgationBar {
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.navigationItem.title = @"";
+    self.navigationItem.title = @"效果类型";
     
 }
 
@@ -42,16 +42,16 @@
 }
 
 
-//- (UITableView *)tableView {
-//    if (_tableView == nil) {
-//        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, f_Device_w, f_Device_h - 49) style:UITableViewStyleGrouped];
-//        _tableView.delegate = self;
-//        _tableView.dataSource = self;
-//        _tableView.separatorStyle  = UITableViewCellSeparatorStyleNone;
-//        _tableView.showsVerticalScrollIndicator = NO;
-//    }
-//    return _tableView;
-//}
+- (UITableView *)tableView {
+    if (_tableView == nil) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64) style:UITableViewStyleGrouped];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.separatorStyle  = UITableViewCellSeparatorStyleNone;
+        _tableView.showsVerticalScrollIndicator = NO;
+    }
+    return _tableView;
+}
 
 
 @end
