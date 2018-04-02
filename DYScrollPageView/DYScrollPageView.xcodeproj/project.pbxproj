@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84286D972071B5A800B1CD06 /* DYDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286D962071B5A800B1CD06 /* DYDemo1ViewController.m */; };
+		84286D9B2071C56F00B1CD06 /* DYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286D9A2071C56F00B1CD06 /* DYPageViewController.m */; };
+		84286D9E2071C65900B1CD06 /* DYPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286D9D2071C65900B1CD06 /* DYPageTableViewController.m */; };
 		846B1E4F206B95AB00108E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B1E4E206B95AB00108E0A /* main.m */; };
 		846B1E52206B95AB00108E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B1E51206B95AB00108E0A /* AppDelegate.m */; };
 		846B1E58206B95AB00108E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B1E56206B95AB00108E0A /* Main.storyboard */; };
@@ -63,6 +66,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84286D952071B5A800B1CD06 /* DYDemo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDemo1ViewController.h; sourceTree = "<group>"; };
+		84286D962071B5A800B1CD06 /* DYDemo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDemo1ViewController.m; sourceTree = "<group>"; };
+		84286D992071C56F00B1CD06 /* DYPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYPageViewController.h; sourceTree = "<group>"; };
+		84286D9A2071C56F00B1CD06 /* DYPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYPageViewController.m; sourceTree = "<group>"; };
+		84286D9C2071C65900B1CD06 /* DYPageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYPageTableViewController.h; sourceTree = "<group>"; };
+		84286D9D2071C65900B1CD06 /* DYPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYPageTableViewController.m; sourceTree = "<group>"; };
 		846B1E4A206B95AB00108E0A /* DYScrollPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYScrollPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B1E4E206B95AB00108E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		846B1E50206B95AB00108E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +173,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84286D942071B53700B1CD06 /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				846B1EC4206B970000108E0A /* DYMainViewController.h */,
+				846B1EC5206B970000108E0A /* DYMainViewController.m */,
+			);
+			name = "主界面";
+			sourceTree = "<group>";
+		};
+		84286D982071B5B200B1CD06 /* 缩放+颜色渐变 效果 */ = {
+			isa = PBXGroup;
+			children = (
+				84286D952071B5A800B1CD06 /* DYDemo1ViewController.h */,
+				84286D962071B5A800B1CD06 /* DYDemo1ViewController.m */,
+				84286D992071C56F00B1CD06 /* DYPageViewController.h */,
+				84286D9A2071C56F00B1CD06 /* DYPageViewController.m */,
+				84286D9C2071C65900B1CD06 /* DYPageTableViewController.h */,
+				84286D9D2071C65900B1CD06 /* DYPageTableViewController.m */,
+			);
+			name = "缩放+颜色渐变 效果";
+			sourceTree = "<group>";
+		};
 		846B1E41206B95AB00108E0A = {
 			isa = PBXGroup;
 			children = (
@@ -190,8 +221,8 @@
 				846B1EC7206B998900108E0A /* DYCommonSystemDefineHeader.h */,
 				846B1E50206B95AB00108E0A /* AppDelegate.h */,
 				846B1E51206B95AB00108E0A /* AppDelegate.m */,
-				846B1EC4206B970000108E0A /* DYMainViewController.h */,
-				846B1EC5206B970000108E0A /* DYMainViewController.m */,
+				84286D982071B5B200B1CD06 /* 缩放+颜色渐变 效果 */,
+				84286D942071B53700B1CD06 /* 主界面 */,
 				846B1ECB206B9A0500108E0A /* DYScrollPageView */,
 				846B1EC3206B96B800108E0A /* 第三方库 */,
 				846B1E56206B95AB00108E0A /* Main.storyboard */,
@@ -503,6 +534,8 @@
 				846B1EB6206B96AE00108E0A /* MJRefreshAutoStateFooter.m in Sources */,
 				846B1EE4206B9DAD00108E0A /* DYTitleView.m in Sources */,
 				846B1EB1206B96AE00108E0A /* MJRefreshComponent.m in Sources */,
+				84286D9B2071C56F00B1CD06 /* DYPageViewController.m in Sources */,
+				84286D972071B5A800B1CD06 /* DYDemo1ViewController.m in Sources */,
 				846B1EDA206B9B6100108E0A /* DYScrollPageView.m in Sources */,
 				846B1ECE206B9AC400108E0A /* UIViewController+DYScrollPageController.m in Sources */,
 				846B1EDD206B9B8900108E0A /* DYScrollSegmentView.m in Sources */,
@@ -513,6 +546,7 @@
 				846B1EB3206B96AE00108E0A /* MJRefreshHeader.m in Sources */,
 				846B1EBB206B96AE00108E0A /* MJRefreshNormalHeader.m in Sources */,
 				846B1EB7206B96AE00108E0A /* MJRefreshBackGifFooter.m in Sources */,
+				84286D9E2071C65900B1CD06 /* DYPageTableViewController.m in Sources */,
 				846B1ECA206B99FF00108E0A /* UIView+DYFrame.m in Sources */,
 				846B1EB0206B96AE00108E0A /* MJRefreshBackFooter.m in Sources */,
 				846B1EB5206B96AE00108E0A /* MJRefreshAutoNormalFooter.m in Sources */,
@@ -760,6 +794,7 @@
 				846B1E79206B95AC00108E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846B1E7A206B95AC00108E0A /* Build configuration list for PBXNativeTarget "DYScrollPageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -768,6 +803,7 @@
 				846B1E7C206B95AC00108E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846B1E7D206B95AC00108E0A /* Build configuration list for PBXNativeTarget "DYScrollPageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -776,6 +812,7 @@
 				846B1E7F206B95AC00108E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
