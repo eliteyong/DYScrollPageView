@@ -7,7 +7,9 @@
 //
 
 #import "DYPageViewController.h"
+#import "DYPageViewController.h"
+#import "DYScrollPageViewDelegate.h"
 
-@interface DYPageCollectionViewController : DYPageViewController
+@interface DYPageCollectionViewController : DYPageViewController <DYScrollPageViewChildViewControllerDelegate>
 
 @end
