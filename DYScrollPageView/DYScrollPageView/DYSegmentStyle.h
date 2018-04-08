@@ -40,6 +40,14 @@ typedef NS_OPTIONS(NSInteger, DYSegmentViewComponent) {
  */
 @property (nonatomic, assign, getter=isShowLine) BOOL showLine;
 /**
+ 是否显示下面的线，默认为NO
+ */
+@property (nonatomic, assign, getter=isShowBottomLine) BOOL showBottomLine;
+/**
+ 下划线的颜色，配合是否显示下划线使用，默认是Color(238,238,238,1)
+ */
+@property (nonatomic, strong) UIColor *bottomLineColor;
+/**
  是否显示图片,默认为NO
  */
 @property (nonatomic, assign, getter=isShowImage) BOOL showImage;
@@ -134,7 +142,7 @@ typedef NS_OPTIONS(NSInteger, DYSegmentViewComponent) {
  */
 @property (nonatomic, strong) UIColor *selectedTitleColor;
 /** 
- segmentVIew的高度, 这个属性只在使用DYScrollPageView的时候设置生效
+ segmentView的高度, 这个属性只在使用DYScrollPageView的时候设置生效
  */
 @property (nonatomic, assign) CGFloat segmentHeight;
 /** 

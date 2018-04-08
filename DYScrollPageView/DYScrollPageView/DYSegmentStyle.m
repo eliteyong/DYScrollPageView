@@ -14,6 +14,7 @@
     if (self = [super init]) {
         _showCover = NO;
         _showLine = NO;
+        _showBottomLine = NO;
         _scaleTitle = NO;
         _scrollTitle = YES;
         _segmentViewBounces = YES;

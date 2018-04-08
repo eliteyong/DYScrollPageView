@@ -22,6 +22,10 @@
  */
 @property (nonatomic, strong) UIView *scrollLine;
 /**
+ 底部的下划线
+ */
+@property (nonatomic, strong) UIView *bottomLineView;
+/**
  遮盖
  */
 @property (nonatomic, strong) UIView *coverLayer;
@@ -111,6 +115,10 @@ static CGFloat const contentSizeXOff = 20.0;
     
     if (self.segmentStyle.isShowExtraButton) {
         [self addSubview:self.extraBtn];
+    }
+    
+    if (self.segmentStyle.isShowBottomLine) {
+        [self addSubview:self.bottomLineView];
     }
 }
 
@@ -531,6 +539,15 @@ static CGFloat const contentSizeXOff = 20.0;
         _coverLayer = coverView;
     }
     return _coverLayer;
+}
+
+- (UIView *)bottomLineView {
+    if (_bottomLineView == nil) {
+        _bottomLineView = [[UIView alloc] init];
+        _bottomLineView.frame = CGRectMake(0, self.segmentStyle.segmentHeight - 1, self.frame.size.width, 1);
+        _bottomLineView.backgroundColor = self.segmentStyle.bottomLineColor ? :[UIColor colorWithRed:238/255.0 green:238/255.0 blue:238/255.0 alpha:1];
+    }
+    return _bottomLineView;
 }
 
 - (UIButton *)extraBtn {

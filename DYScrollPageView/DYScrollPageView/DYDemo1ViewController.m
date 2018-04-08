@@ -28,9 +28,10 @@
     DYSegmentStyle *style = [[DYSegmentStyle alloc] init];
     //缩放标题
     style.scaleTitle = YES;
+    //显示滚动条
+    style.showLine = YES;
     //颜色渐变
     style.gradualChangeTitleColor = YES;
-    //设置附加按钮的背景图片
     
     self.titles = @[@"新闻头条",@"国际要闻",@"体育",@"中国足球",@"汽车",@"囧途旅游",@"幽默搞笑",@"视频",@"无厘头",@"今日房价",@"头像",];
     //初始化

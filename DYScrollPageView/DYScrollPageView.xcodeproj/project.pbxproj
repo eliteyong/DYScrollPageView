@@ -10,6 +10,12 @@
 		84286D972071B5A800B1CD06 /* DYDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286D962071B5A800B1CD06 /* DYDemo1ViewController.m */; };
 		84286D9B2071C56F00B1CD06 /* DYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286D9A2071C56F00B1CD06 /* DYPageViewController.m */; };
 		84286D9E2071C65900B1CD06 /* DYPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286D9D2071C65900B1CD06 /* DYPageTableViewController.m */; };
+		84563D572079E6E000A4A77D /* DYDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84563D562079E6E000A4A77D /* DYDemo2ViewController.m */; };
+		84563D5B2079EBD300A4A77D /* DYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84563D5A2079EBD300A4A77D /* DYTestViewController.m */; };
+		84563D9D2079F3D300A4A77D /* DYDemo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84563D9C2079F3D300A4A77D /* DYDemo3ViewController.m */; };
+		84563DA12079F55800A4A77D /* DYDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84563DA02079F55800A4A77D /* DYDemo4ViewController.m */; };
+		84563DA52079FB5C00A4A77D /* DYDemo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84563DA42079FB5C00A4A77D /* DYDemo5ViewController.m */; };
+		84563DA92079FBD000A4A77D /* DYPageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84563DA82079FBD000A4A77D /* DYPageCollectionViewController.m */; };
 		846B1E4F206B95AB00108E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B1E4E206B95AB00108E0A /* main.m */; };
 		846B1E52206B95AB00108E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B1E51206B95AB00108E0A /* AppDelegate.m */; };
 		846B1E58206B95AB00108E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B1E56206B95AB00108E0A /* Main.storyboard */; };
@@ -72,6 +78,18 @@
 		84286D9A2071C56F00B1CD06 /* DYPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYPageViewController.m; sourceTree = "<group>"; };
 		84286D9C2071C65900B1CD06 /* DYPageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYPageTableViewController.h; sourceTree = "<group>"; };
 		84286D9D2071C65900B1CD06 /* DYPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYPageTableViewController.m; sourceTree = "<group>"; };
+		84563D552079E6E000A4A77D /* DYDemo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDemo2ViewController.h; sourceTree = "<group>"; };
+		84563D562079E6E000A4A77D /* DYDemo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDemo2ViewController.m; sourceTree = "<group>"; };
+		84563D592079EBD300A4A77D /* DYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTestViewController.h; sourceTree = "<group>"; };
+		84563D5A2079EBD300A4A77D /* DYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTestViewController.m; sourceTree = "<group>"; };
+		84563D9B2079F3D300A4A77D /* DYDemo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDemo3ViewController.h; sourceTree = "<group>"; };
+		84563D9C2079F3D300A4A77D /* DYDemo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDemo3ViewController.m; sourceTree = "<group>"; };
+		84563D9F2079F55800A4A77D /* DYDemo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDemo4ViewController.h; sourceTree = "<group>"; };
+		84563DA02079F55800A4A77D /* DYDemo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDemo4ViewController.m; sourceTree = "<group>"; };
+		84563DA32079FB5B00A4A77D /* DYDemo5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDemo5ViewController.h; sourceTree = "<group>"; };
+		84563DA42079FB5C00A4A77D /* DYDemo5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDemo5ViewController.m; sourceTree = "<group>"; };
+		84563DA72079FBD000A4A77D /* DYPageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYPageCollectionViewController.h; sourceTree = "<group>"; };
+		84563DA82079FBD000A4A77D /* DYPageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYPageCollectionViewController.m; sourceTree = "<group>"; };
 		846B1E4A206B95AB00108E0A /* DYScrollPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYScrollPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B1E4E206B95AB00108E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		846B1E50206B95AB00108E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -195,6 +213,58 @@
 			name = "缩放+颜色渐变 效果";
 			sourceTree = "<group>";
 		};
+		84563D542079E6AE00A4A77D /* 使用事例Demos */ = {
+			isa = PBXGroup;
+			children = (
+				84286D982071B5B200B1CD06 /* 缩放+颜色渐变 效果 */,
+				84563D582079E6EE00A4A77D /* 滚动条+颜色渐变 效果 */,
+				84563D9E2079F3D600A4A77D /* 标题不滚动+遮盖+颜色渐变 效果 */,
+				84563DA22079F55B00A4A77D /* 自定义segmentView和contentView位置的效果 */,
+				84563DA62079FB6900A4A77D /* 微博&简书个人主页效果 */,
+			);
+			name = "使用事例Demos";
+			sourceTree = "<group>";
+		};
+		84563D582079E6EE00A4A77D /* 滚动条+颜色渐变 效果 */ = {
+			isa = PBXGroup;
+			children = (
+				84563D552079E6E000A4A77D /* DYDemo2ViewController.h */,
+				84563D562079E6E000A4A77D /* DYDemo2ViewController.m */,
+				84563D592079EBD300A4A77D /* DYTestViewController.h */,
+				84563D5A2079EBD300A4A77D /* DYTestViewController.m */,
+			);
+			name = "滚动条+颜色渐变 效果";
+			sourceTree = "<group>";
+		};
+		84563D9E2079F3D600A4A77D /* 标题不滚动+遮盖+颜色渐变 效果 */ = {
+			isa = PBXGroup;
+			children = (
+				84563D9B2079F3D300A4A77D /* DYDemo3ViewController.h */,
+				84563D9C2079F3D300A4A77D /* DYDemo3ViewController.m */,
+			);
+			name = "标题不滚动+遮盖+颜色渐变 效果";
+			sourceTree = "<group>";
+		};
+		84563DA22079F55B00A4A77D /* 自定义segmentView和contentView位置的效果 */ = {
+			isa = PBXGroup;
+			children = (
+				84563D9F2079F55800A4A77D /* DYDemo4ViewController.h */,
+				84563DA02079F55800A4A77D /* DYDemo4ViewController.m */,
+			);
+			name = "自定义segmentView和contentView位置的效果";
+			sourceTree = "<group>";
+		};
+		84563DA62079FB6900A4A77D /* 微博&简书个人主页效果 */ = {
+			isa = PBXGroup;
+			children = (
+				84563DA32079FB5B00A4A77D /* DYDemo5ViewController.h */,
+				84563DA42079FB5C00A4A77D /* DYDemo5ViewController.m */,
+				84563DA72079FBD000A4A77D /* DYPageCollectionViewController.h */,
+				84563DA82079FBD000A4A77D /* DYPageCollectionViewController.m */,
+			);
+			name = "微博&简书个人主页效果";
+			sourceTree = "<group>";
+		};
 		846B1E41206B95AB00108E0A = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +291,7 @@
 				846B1EC7206B998900108E0A /* DYCommonSystemDefineHeader.h */,
 				846B1E50206B95AB00108E0A /* AppDelegate.h */,
 				846B1E51206B95AB00108E0A /* AppDelegate.m */,
-				84286D982071B5B200B1CD06 /* 缩放+颜色渐变 效果 */,
+				84563D542079E6AE00A4A77D /* 使用事例Demos */,
 				84286D942071B53700B1CD06 /* 主界面 */,
 				846B1ECB206B9A0500108E0A /* DYScrollPageView */,
 				846B1EC3206B96B800108E0A /* 第三方库 */,
@@ -526,6 +596,7 @@
 			files = (
 				846B1E52206B95AB00108E0A /* AppDelegate.m in Sources */,
 				846B1EBF206B96AE00108E0A /* NSBundle+MJRefresh.m in Sources */,
+				84563D9D2079F3D300A4A77D /* DYDemo3ViewController.m in Sources */,
 				846B1EBC206B96AE00108E0A /* MJRefreshStateHeader.m in Sources */,
 				846B1EAF206B96AE00108E0A /* MJRefreshAutoFooter.m in Sources */,
 				846B1EB9206B96AE00108E0A /* MJRefreshBackStateFooter.m in Sources */,
@@ -539,6 +610,8 @@
 				846B1EDA206B9B6100108E0A /* DYScrollPageView.m in Sources */,
 				846B1ECE206B9AC400108E0A /* UIViewController+DYScrollPageController.m in Sources */,
 				846B1EDD206B9B8900108E0A /* DYScrollSegmentView.m in Sources */,
+				84563DA12079F55800A4A77D /* DYDemo4ViewController.m in Sources */,
+				84563DA92079FBD000A4A77D /* DYPageCollectionViewController.m in Sources */,
 				846B1EC1206B96AE00108E0A /* UIScrollView+MJRefresh.m in Sources */,
 				846B1EC0206B96AE00108E0A /* UIScrollView+MJExtension.m in Sources */,
 				846B1ED1206B9B0100108E0A /* DYContentView.m in Sources */,
@@ -546,6 +619,7 @@
 				846B1EB3206B96AE00108E0A /* MJRefreshHeader.m in Sources */,
 				846B1EBB206B96AE00108E0A /* MJRefreshNormalHeader.m in Sources */,
 				846B1EB7206B96AE00108E0A /* MJRefreshBackGifFooter.m in Sources */,
+				84563DA52079FB5C00A4A77D /* DYDemo5ViewController.m in Sources */,
 				84286D9E2071C65900B1CD06 /* DYPageTableViewController.m in Sources */,
 				846B1ECA206B99FF00108E0A /* UIView+DYFrame.m in Sources */,
 				846B1EB0206B96AE00108E0A /* MJRefreshBackFooter.m in Sources */,
@@ -553,6 +627,8 @@
 				846B1E4F206B95AB00108E0A /* main.m in Sources */,
 				846B1EBA206B96AE00108E0A /* MJRefreshGifHeader.m in Sources */,
 				846B1EB8206B96AE00108E0A /* MJRefreshBackNormalFooter.m in Sources */,
+				84563D5B2079EBD300A4A77D /* DYTestViewController.m in Sources */,
+				84563D572079E6E000A4A77D /* DYDemo2ViewController.m in Sources */,
 				846B1EB2206B96AE00108E0A /* MJRefreshFooter.m in Sources */,
 				846B1EB4206B96AE00108E0A /* MJRefreshAutoGifFooter.m in Sources */,
 				846B1EE0206B9C6100108E0A /* DYSegmentStyle.m in Sources */,

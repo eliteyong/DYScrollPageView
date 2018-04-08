@@ -10,6 +10,9 @@
 #import "DYScrollPageViewDelegate.h"
 
 #import "DYDemo1ViewController.h"
+#import "DYDemo2ViewController.h"
+#import "DYDemo3ViewController.h"
+#import "DYDemo4ViewController.h"
 
 @interface DYMainViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -42,6 +45,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.navigationItem.title = @"效果类型";
+    
 }
 
 /**
@@ -49,8 +53,8 @@
  */
 - (void)configData {
     //@"遮盖+颜色渐变+segmentView没有弹性效果",
-    self.dataArray = @[@"缩放+颜色渐变 效果",@"滚动条+颜色渐变 效果",@"遮盖+缩放+没有颜色渐变 效果",@"标题不滚动+遮盖+颜色渐变 效果"];
-    self.pushVcArray = @[@"DYDemo1ViewController"];
+    self.dataArray = @[@"缩放+颜色渐变 效果",@"滚动条+颜色渐变 效果",@"标题不滚动+遮盖+颜色渐变 效果",@"自定义segmentView和contentView位置的效果",@"微博&简书个人主页效果"];
+    self.pushVcArray = @[@"DYDemo1ViewController",@"DYDemo2ViewController",@"DYDemo3ViewController",@"DYDemo4ViewController",@"DYDemo5ViewController"];
 }
 
 /**
@@ -84,11 +88,12 @@
         
     }
     cell.textLabel.text = self.dataArray[indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:15];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [self pushToNextViewControllerWithVcName:self.pushVcArray.lastObject];
+    [self pushToNextViewControllerWithVcName:[self.pushVcArray objectAtIndex:indexPath.row]];
 }
 
 - (void)pushToNextViewControllerWithVcName:(NSString *)vcName {
