@@ -191,7 +191,7 @@ NSString *const DYParentTableViewDidLeaveFromTopNotification = @"DYParentTableVi
     if (!_headView) {
         _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, headViewHeight)];
         UILabel *label = [[UILabel alloc] initWithFrame:_headView.bounds];
-        label.text = @"这是header~~~~~~~~~~~~~~";
+        label.text = @"这是UITableView.tableHeadrView";
         label.textAlignment = NSTextAlignmentCenter;
         label.textColor = [UIColor redColor];
         [_headView addSubview:label];
